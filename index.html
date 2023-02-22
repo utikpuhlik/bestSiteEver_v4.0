@@ -22,7 +22,7 @@
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Лучший в мире сайт</a>
+        <a class="navbar-brand" href="#">BestSiteEver</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -37,16 +37,19 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav mx-auto">
             <div class="navbar-text item1">
-              <a class="nav-link" href="#">Voices</a>
+              <a class="nav-link" href="#sec-voices">Voices</a>
             </div>
             <div class="navbar-text item2">
-              <a class="nav-link" href="#">Videos</a>
+              <a class="nav-link" href="#sec-videos">Videos</a>
             </div>
             <div class="navbar-text item3">
-              <a class="nav-link" href="#">Photos</a>
+              <a class="nav-link" href="#sec-photos">Photos</a>
             </div>
             <div class="navbar-text item4">
-              <a class="nav-link" href="#">VCS</a>
+              <a class="nav-link" href="#sec-smiles">Smiles</a>
+            </div>
+            <div class="navbar-text item5">
+              <a class="nav-link" href="#sec-versions">VCS</a>
             </div>
           </div>
         </div>
@@ -70,8 +73,8 @@
           </figcaption>
         </figure>
       </div>
-      <div class="container section-name">Voices</div>
-      <div class="container voices">
+      <div class="container section-name" id="sec-voices"">Voices</div>
+      <div class="container sec-voices">
         <div class="container item voice-column-name"><b>Фразы челиков</b></div>
         <div class="container item voice-column-name">
           <b>Фразы и музыка величайшего</b>
@@ -335,7 +338,7 @@
         </div>
       </div>
 
-      <div class="container section-name sec-video">Видосы с Виталей:</div>
+      <div class="container section-name sec-videos" id="sec-videos">Видосы с Виталей:</div>
       <div class="container vids">
         <video controls width="400" height="300">
           <source src="video/etokonec.mp4" />
@@ -360,8 +363,8 @@
         </video>
       </div>
 
-      <div class="container section-name sec-video">Разные фото:</div>
-      <!-- TODO: Carusel -->
+      <div class="container section-name sec-photos" id="sec-photos"">Разные фото:</div>
+      <!-- TODO: FIX Carusel -->
       <div
         id="carouselExampleAutoplaying"
         class="carousel slide"
@@ -369,22 +372,19 @@
       >
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="img/forbes.png" class="d-block w-100" alt="..." />
+            <img src="img/forbes.png" class="d-block w-150" alt="..." />
           </div>
           <div class="carousel-item">
-            <img src="img/gucci.png" class="d-block w-100" alt="..." />
+            <img src="img/gucci.png" class="d-block w-150" alt="..." />
           </div>
           <div class="carousel-item">
-            <img src="img/shockLico.png" class="d-block w-100" alt="..." />
+            <img src="img/shockLico.png" class="d-block w-150" alt="..." />
           </div>
           <div class="carousel-item">
             <img src="img/pomoika2.png" class="d-block w-100" alt="..." />
           </div>
           <div class="carousel-item">
             <img src="img/tiKTO.png" class="d-block w-100" alt="..." />
-          </div>
-          <div class="carousel-item">
-            <img src="img/rflnE.png" class="d-block w-100" alt="..." />
           </div>
         </div>
         <button
@@ -407,7 +407,7 @@
         </button>
       </div>
 
-      <div class="container section-name sec-video">
+      <div class="container section-name" id="sec-smiles">
         Смайлы с величайшим:
       </div>
       <div class="container vids">
@@ -415,9 +415,11 @@
         <img src="img/smile2.png"/>
         <img src="img/smile3.png"/>
         <img src="img/smile4.png" height="20%"/>
+        <img src="img/rflnE.png" height="20%"/>
       </div>
 
-      <div class="container">
+      <div class="container sec-versions" id="sec-versions">
+        <!-- TODO: Убрать склейку -->
       <footer class="py-3 my-4">
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
           <li class="nav-item">
@@ -427,10 +429,10 @@
             <a href="https://vk.com/evilpapech">Группа качественного контента</a>
           </li>
           <li class="nav-item">
-            <a href="https://www.twitch.tv/evilarthas"> Твитч лучшего</a>
+            <a href="https://www.twitch.tv/evilarthas">Твитч лучшего</a>
           </li>
-          <li class="nav-item">
-            <a href="versions.html"> Список изменений</a>
+          <li class="nav-item versions">
+            <a href="versions.html">Список изменений</a>
           </li>
         </ul>
         <p class="text-center text-muted">V 4.0 Создано без поддержки айсдауна, осфрога, Бена и Габена. © 2076,

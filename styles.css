@@ -20,7 +20,7 @@ body {
 
 .navbar-text {
     color: aliceblue;
-    padding-right: 45px;
+    padding-right: 40px;
     font-size: 18px;
 }
 
@@ -35,7 +35,7 @@ body {
 
 }
 
-.voices {
+.sec-voices {
     display: flex;
 	/* flex-direction: row;
 	flex-wrap: wrap; */
@@ -51,7 +51,7 @@ body {
     color: aliceblue;
 }
 
-.sec-video {
+.sec-videos {
     margin-top: 100px;
 }
 
